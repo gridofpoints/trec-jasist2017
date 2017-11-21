@@ -15,7 +15,7 @@ We considered three main components of an IR system: stop list, Lexical Unit Gen
 
 Content of the directories:
 - **code**: the Matlab code for running the analyses and reproducing the experiments from the Grid of Points contained in the `data` directory. It requires the [MATTERS library](http://matters.dei.unipd.it/).
-- **data**: the Grid of Points for the following Adhoc collections:  TREC 7 (`T07` directory), TREC 8 (`T08` directory), TREC 9 (`T09` directory), TREC 10 (`T10` directory). Each directory contains a `.mat` file for each of the following evaluation measures: AP, P@10, nDCG@20, ERR@20, and RBP. Files have to be opened with the `serload` command of the [MATTERS library](http://matters.dei.unipd.it/).
+- **data**: the Grid of Points for the following Adhoc collections:  TREC 7 (`T07` directory), TREC 8 (`T08` directory), TREC 9 (`T09` directory), TREC 10 (`T10` directory). Each directory contains a `.mat` file for each of the following evaluation measures: AP, P@10, RPREC, nDCG, nDCG@20, ERR, ERR@20, Twist and RBP. Files have to be opened with the `serload` command of the [MATTERS library](http://matters.dei.unipd.it/).
 
 ## Reference
 
