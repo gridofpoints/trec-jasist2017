@@ -1,7 +1,7 @@
 # trec-jasist2017
 Data for "Towards an Anatomy of Search Engine Component Performances" - TREC 07-08-09-10
 
-# TREC Adhoc 5, 6, 7, 8 Grid of Points (SIGIR 2016)
+# TREC Adhoc 7, 8 and TREC Web 9 and 10 Grid of Points (JASIST 2017)
 
 We selected a set of alternative implementations of each component and by using the [Terrier open source system](http://terrier.org/) we created a run for each system defined by combining the available components in all possible ways.
 
